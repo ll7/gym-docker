@@ -1,0 +1,34 @@
+#PyQt5==5.15.0
+#pyQt5-sip
+scipy==1.4.1
+jupyterlab
+#PyQt3D==5.15.0
+npyscreen==4.10.5
+Keras==2.4.1
+# tf-nightly
+tensorflow
+#pynput==1.6.8
+#opencv_python==4.2.0.34
+#environs
+#PyYAML
+#rospkg
+#pathlib
+#jderobot-jderobottypes
+#catkin_pkg
+numpy==1.18.5
+matplotlib==3.3.0
+#kiwisolver==1.2
+#defusedxml
+#scikit-image
+#netifaces==0.10.9
+#Pillow==7.2.0
+#pyglet==1.5.0
+gym
+#requests>=2.0
+#six
+#empy
+#vcstool 
+#scikit-image
+#bagpy
+# torch
+# fastai

@@ -18,6 +18,12 @@ RUN apt-get update && apt-get install -y \
 	xvfb && \
     pip3 install --upgrade pip && \
     rm -rf /var/lib/apt/lists/*
+
+# Install python dependencies
+COPY requirements.txt ./
+
+RUN pip install --no-cache-dir --upgrade pip && \
+    pip install --no-cache-dir -r requirements.txt
     
 RUN echo 'alias jl="DISPLAY=:0 jupyter lab --no-browser --ip 0.0.0.0 --port 8888 --allow-root &"' >> /root/.bashrc && \
     echo "alias killgazebogym='killall -9 rosout roslaunch rosmaster gzserver nodelet robot_state_publisher gzclient'" >> ~/.bashrc && \
