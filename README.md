@@ -34,6 +34,8 @@ only if you need to: ./.docker/docker_build.sh
 
 [VNC](https://github.com/JdeRobot/BehaviorStudio/tree/noetic-devel/.docker#using-vnc-to-visualize-container-) to connect a virtual desktop to docker
 
+https://chrome.google.com/webstore/detail/vnc%C2%AE-viewer-for-google-ch/iabmpiboiopbgfabjmgeedhcmjenhbla?hl=en
+
 Address: localhost:5900
 
 pw: jderobot
